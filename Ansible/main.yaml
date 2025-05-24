@@ -1,0 +1,19 @@
+---
+- hosts: localhost
+  roles:
+    - docker
+# - hosts: master
+#   roles:
+#    - docker 
+#    - kubeadm
+#    - helm
+#    - nginx
+#    - Cluster
+
+# - hosts: node
+#   roles:
+#    - docker 
+#    - kubeadm
+#    - nginx
+
+   
